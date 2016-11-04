@@ -1,0 +1,125 @@
+/**
+ * Styleing for Basic Icons Set
+ */
+.share-total-count {
+    font-size: 18px !important;
+    letter-spacing: 0.8px;
+}
+
+.share-total-count:after {
+    content: "/";
+    color: #c9c9c9;
+    font-size: 24px !important;
+    font-weight: 300;
+    margin: 0 22px 0 18px;
+    vertical-align: middle;
+}
+
+body .single-soc-share-link a {
+    color: #7f7f7f;
+    color: rgba(0,0,0,.5);
+    margin: 6px 0;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+}
+
+.single-soc-share-link [href*="facebook"]:hover,
+.single-soc-share-link [href*="facebook"]:hover .counter {
+    color: #425596;
+}
+
+.single-soc-share-link [href*="twitter"]:hover,
+.single-soc-share-link [href*="twitter"]:hover .counter {
+    color: #4aa8df;
+}
+
+.single-soc-share-link [href*="google"]:hover,
+.single-soc-share-link [href*="google"]:hover .counter {
+    color: #de4839;
+}
+
+.single-soc-share-link [href*="linkedin"]:hover,
+.single-soc-share-link [href*="linkedin"]:hover .counter {
+    color: #0071aa;
+}
+
+.single-soc-share-link [href*="pinterest"]:hover,
+.single-soc-share-link [href*="pinterest"]:hover .counter {
+    color: #e9343a;
+}
+
+.single-soc-share-link [href*="stumbleupon"]:hover,
+.single-soc-share-link [href*="stumbleupon"]:hover .counter {
+    color: #404040;
+}
+
+.single-soc-share-link [href*="reddit"]:hover,
+.single-soc-share-link [href*="reddit"]:hover .counter {
+    color: #ff4500;
+}
+
+.single-soc-share-link [href*="mail"]:hover,
+.single-soc-share-link [href*="mail"]:hover .counter {
+    color: #ccc;
+}
+
+.single-soc-share-link [class^="icon-"],
+.single-soc-share-link [class*=" icon-"],
+.single-soc-share-link [class^="icon-"]:before,
+.single-soc-share-link [class*=" icon-"]:before {
+    font-size: 20px !important;
+}
+
+.icons .single-soc-share-link {
+    margin-right: 18px;
+}
+
+.icons .single-soc-share-link:last-child {
+    margin-right: 0;
+}
+
+.icons .single-soc-share-link span:not(.counter),
+.text .single-soc-share-link i {
+    display: none;
+}
+
+.text .single-soc-share-link {
+    margin-right: 25px;
+}
+
+.text .single-soc-share-link:last-child {
+    margin-right: 0;
+}
+
+.text .single-soc-share-link a {
+    color: #636363;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.text .single-soc-share-link a,
+.icons .counter {
+    font-size: 13px !important;
+}
+
+.post .counter {
+    color: #a7a7a7;
+    font-weight: 700;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 0;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+}
+
+.icons .counter {
+    position: relative;
+    top: -2px;
+}
+
